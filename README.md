@@ -1,7 +1,4 @@
 # Laboratorio: VPN Client-to-Site con FortiGate 🛡️
-**Estudiante:** [Tu Nombre]  
-**Matrícula:** 2023-0331  
-**Materia:** Seguridad en Redes
 
 ## 📌 1. Topología del Proyecto
 Se implementó una arquitectura de red segmentada utilizando GNS3, conectando dos redes locales a través de un Firewall FortiGate que actúa como terminador de VPN SSL.
