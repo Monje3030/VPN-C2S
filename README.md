@@ -1,11 +1,11 @@
 # Laboratorio: VPN Client-to-Site con FortiGate 🛡️
 
-## 📌 1. Topología del Proyecto
+##  1. Topología del Proyecto
 Se implementó una arquitectura de red segmentada utilizando GNS3, conectando dos redes locales a través de un Firewall FortiGate que actúa como terminador de VPN SSL.
 
 <img width="922" height="710" alt="image" src="https://github.com/user-attachments/assets/ed0fc2c5-dd83-4ad0-91e6-51b9ad808866" />
 
-## ⚙️ 2. Configuración Técnica
+##  2. Configuración Técnica
 
 ### A. SSL-VPN Settings & Pool
 Se configuró un pool de direcciones dinámicas y un portal de acceso total (Full Access) sin Split-Tunneling para asegurar la inspección de todo el tráfico remoto.
@@ -17,7 +17,7 @@ Para permitir que la LAN 1 hable con la LAN 2 "mediante el enlace VPN", se crear
 
 <img width="898" height="749" alt="image" src="https://github.com/user-attachments/assets/a75661c5-d6dc-45db-b125-2523c9e44146" />
 
-## 🧪 3. Pruebas de Conectividad (Evidencias)
+##  3. Pruebas de Conectividad (Evidencias)
 
 ### Verificación de Tráfico (Sniffer)
 Utilizamos el sniffer de paquetes para demostrar que el tráfico ICMP cruza el firewall correctamente entre el Port 2 y el Port 3.
